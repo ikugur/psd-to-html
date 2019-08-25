@@ -123,10 +123,35 @@
     color: #6b7072;
     padding-right: 15px;
     
-    
 }
 
+/* page-content */
 
+#content {
+    width: 100%;
+   
+} 
+
+
+.btn-info{
+    border-radius: 5;
+    background-color: #2db8b7;
+    position: fixed;
+    z-index: 5;
+    opacity: .7;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+ 
 
 
 
