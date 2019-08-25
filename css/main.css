@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*sidebar setings */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar{
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #242b2e; 
+    color: aquamarine;
+    transition: all .4s;
+    
+}
+
+#sidebar.active{
+    margin-left: -250px;
+}
+.navbar-brand{
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.navbar{
+    padding: 0;
+    
+}
+
+.main-menu{
+    width: 100%;
+    
+}
+.main-menu .nav-item{
+    text-align: right;
+    border-bottom: 1px solid #293034; 
+
+}
+
+.main-menu .nav-item a {
+    background-color: #31383c;
+    color: whitesmoke;
+    font-weight: 300
+    
+}
+
+.main-menu .nav-item a:hover{
+    background-color: #2db8b7;
+    transition: .5s;
+    
+}
+.sidebar-heading{
+    width: 100%;
+    text-align: right;
+    padding-right: 15px;
+    
+}
+
+.sidebar-heading span {
+    font-size: 16px;
+    font-weight: 100;
+    padding-right: 5px;
+    line-height: 16px;
+    vertical-align: bottom;
+    
+}
+
+.works-menu{
+    width: 100%;
+    
+}
+
+.works-menu .nav-item {
+    text-align: right;
+    padding: 0; 
+}
+
+.works-menu .nav-item a{
+    color: #6b7072;
+    font-size: 13px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.works-menu .nav-item a:hover{
+    color: whitesmoke
+    
+}
+
+.social-icons{
+    width: 100%;
+    
+}
+
+.social-icons ul {
+    list-style-type: none;
+    padding-right: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #293034; 
+    
+}
+
+.social-icons li{
+    float: right;
+    margin-left: 8px;
+    
+}
+
+.copyright{
+    width: 100%;  
+    text-align: right;
+    font-size: 13px;
+    color: #6b7072;
+    padding-right: 15px;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
